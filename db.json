@@ -1,0 +1,56 @@
+{
+  "products": [
+  {
+    "id": 1,
+    "name": "Rito",
+    "price": 0.5
+  },
+
+    {
+      "id": 2,
+      "name": "Patres",
+      "price": 0.4
+    },
+
+    {
+      "id": 3,
+      "name": "Filip",
+      "price": 10
+    },
+
+    {
+      "id": 4,
+      "name": "Kevin",
+      "price": 9.99
+    },
+
+    {
+      "id": 5,
+      "name": "Xbanter",
+      "price": 10000
+    }
+  ],
+
+  "users": [
+    {
+      "userId": 1,
+      "login": "xbanterPatrus",
+      "password": "xbanter123",
+      "type": 1
+    },
+
+    {
+      "userId": 2,
+      "login": "rito0000",
+      "password": "damtihodopapulky",
+      "type": 2
+    },
+
+    {
+      "userId": 3,
+      "login": "patres",
+      "password": "malepele8cm",
+      "type": 2
+    }
+  ]
+}
