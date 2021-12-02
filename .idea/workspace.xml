@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs">
+    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="router bootstrap - uprava dizajnu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AddProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AddProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/EditProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/EditProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638282917112</updated>
       <workItem from="1638282919474" duration="17266000" />
-      <workItem from="1638403903026" duration="16959000" />
+      <workItem from="1638403903026" duration="24057000" />
     </task>
     <task id="LOCAL-00001" summary="client and server directories">
       <created>1638286295854</created>
@@ -81,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638413950475</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="router bootstrap - uprava dizajnu">
+      <created>1638435835385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638435835385</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="client and server directories" />
     <MESSAGE value="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs" />
+    <MESSAGE value="router bootstrap - uprava dizajnu" />
+    <option name="LAST_COMMIT_MESSAGE" value="router bootstrap - uprava dizajnu" />
   </component>
 </project>
