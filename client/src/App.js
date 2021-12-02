@@ -1,4 +1,73 @@
 import './App.css';
+import React from "react";
+import {useEffect, useState} from "react";
+import ProductList from "./components/ProductList";
+import AddProduct from "./components/AddProduct";
+import EditProduct from "./components/EditProduct";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import {Button, Nav, NavDropdown, Navbar, Container} from "react-bootstrap";
+import {LinkContainer} from "react-router-bootstrap";
+
+
+function App() {
+    return (
+        <Router>
+            <div className="App">
+                <Navbar bg="success" variant="dark" expand="lg">
+                    <Container>
+                        <LinkContainer to="/"><Navbar.Brand>Lekaren Xbanter</Navbar.Brand></LinkContainer>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <Nav className="me-auto">
+                                <LinkContainer to="/"><Nav.Link>Domov</Nav.Link></LinkContainer>
+                                <LinkContainer to="/edit-products"><Nav.Link>Edit Products</Nav.Link></LinkContainer>
+                                <LinkContainer to="/cart"><Nav.Link>Košík</Nav.Link></LinkContainer>
+                                <NavDropdown title="Správa webu" id="basic-nav-dropdown">
+                                    <LinkContainer to="/product-list"><NavDropdown.Item>Zoznam produktov</NavDropdown.Item></LinkContainer>
+                                    <LinkContainer to="/add-product"><NavDropdown.Item>Pridávanie produktov</NavDropdown.Item></LinkContainer>
+                                    <LinkContainer to="/edit-product"><NavDropdown.Item>Úprava produktov</NavDropdown.Item></LinkContainer>
+                                    <NavDropdown.Divider />
+                                    <LinkContainer to="/admin"><NavDropdown.Item>Admin centrum</NavDropdown.Item></LinkContainer>
+                                </NavDropdown>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+
+                <Switch>
+                    <Route path="/product-list">
+                        <ProductList/>
+                    </Route>
+                    <Route path="/edit-product">
+                        <EditProduct/>
+                    </Route>
+                    <Route path="/add-product">
+                        <AddProduct/>
+                    </Route>
+                    <Route path="/">
+
+                    </Route>
+                </Switch>
+
+            </div>
+
+        </Router>
+    );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+/*import './App.css';
 import Product from "./product";
 import {useEffect, useState} from "react";
 import ProductForm from "./productForm";
@@ -7,6 +76,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import {Button, Nav, NavDropdown, Navbar, Container} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";
+import axios, * as others from 'axios';
 
 
 function App() {
@@ -24,7 +94,7 @@ function App() {
     }
 
     useEffect(() => {
-        fetch('http://localhost:3001/products')
+        axios.get('http://localhost:3001/api/get')
             .then(response => {
                 if (response.ok) {
                 return response.json()
@@ -106,4 +176,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/

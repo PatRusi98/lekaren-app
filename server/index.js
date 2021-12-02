@@ -1,17 +1,21 @@
-const express = require('express');
-const mysql = require('mysql');
+import express from "express";
+import db from "./config/database.js";
+import productRoutes from "./routes/index.js";
+import userRoutes from "./routes/index.js";
+import cors from "cors";
+
 const app = express();
 
-const db = mysql.createPool({
-  host: 'localhost',
-  password: 'Pato1998',
-  database: 'lekaren-app',
-});
+try {
+    await db.authenticate();
+    console.log('Database connected...');
+} catch (error) {
+    console.error('Connection error:', error);
+}
 
-app.get("/", (req, res) => {
-    res.send("Hello, world!");
-})
+app.use(cors());
+app.use(express.json());
+app.use('/products', productRoutes);
+app.use('/users', userRoutes);
 
-app.listen(3001, () => {
-    console.log("Running on port 3001");
-});
+app.listen(3001, () => console.log('Server running at port 3001'));
