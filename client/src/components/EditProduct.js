@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import axios from "axios";
 import { useHistory, useParams } from 'react-router-dom';
-import {Button} from "react-bootstrap";
+import {Button, Form, Row, Col} from "react-bootstrap";
 
 const EditProduct = () => {
     const [name, setName] = useState('');
@@ -30,35 +30,31 @@ const EditProduct = () => {
     }
 
     return (
-        <div>
-            <form onSubmit={ updateProduct }>
-                <div className="field">
-                    <label className="label">Meno</label>
-                    <input
-                        className="input"
-                        type="text"
-                        placeholder="Meno"
-                        value={ name }
-                        onChange={ (e) => setName(e.target.value) }
-                    />
-                </div>
-
-                <div className="field">
-                    <label className="label">Cena</label>
-                    <input
-                        className="input"
-                        type="number"
-                        step="0.01"
-                        placeholder="Cena"
-                        value={ price }
-                        onChange={ (e) => setPrice(e.target.value) }
-                    />
-                </div>
-
-                <div className="field">
-                    <Button as="input" type="submit" value="Upraviť" />
-                </div>
-            </form>
+        <div align="center">
+            <Form onSubmit={ updateProduct }>
+                <Row className="align-items-center">
+                        <Form.Group className="mb-3">
+                            <Form.Label>Meno</Form.Label>
+                            <Form.Control
+                                className="w-25"
+                                type="text"
+                                placeholder="Meno"
+                                value={ name }
+                                onChange={ (e) => setName(e.target.value) }/>
+                        </Form.Group>
+                        <Form.Group className="mb-3">
+                            <Form.Label>Cena</Form.Label>
+                            <Form.Control
+                                className="w-25"
+                                type="number"
+                                step="0.01"
+                                placeholder="Cena"
+                                value={ price }
+                                onChange={ (e) => setPrice(e.target.value) }/>
+                        </Form.Group>
+                </Row>
+                <Button as="input" type="submit" value="Upraviť" />
+            </Form>
         </div>
     )
 }

@@ -1,153 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="client and server directories">
-      <change afterPath="$PROJECT_DIR$/client/src/components/AddProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/EditProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ProductList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/Products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/productModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/userModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/productForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/productForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/LICENCE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/bignumber.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/bignumber.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/bignumber.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/bignumber.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/bignumber.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/doc/API.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/bignumber.js/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/core-util-is/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/core-util-is/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/core-util-is/lib/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/core-util-is/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/isarray/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/isarray/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/isarray/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/isarray/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/isarray/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/isarray/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/isarray/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/isarray/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/Changes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/License" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/Connection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/ConnectionConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/Pool.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolCluster.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolConnection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolNamespace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/PoolSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/BufferList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/PacketHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/PacketWriter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Protocol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/ResultSet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/SqlString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/Timer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/charsets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/errors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/field_flags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/server_status.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/constants/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/EofPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/Field.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/FieldPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/LocalInfileRequestPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/OkPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/packets/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Handshake.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Ping.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Quit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Sequence.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/Statistics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/lib/protocol/sequences/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/mysql/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/process-nextick-args/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/process-nextick-args/license.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/process-nextick-args/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/process-nextick-args/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/duplex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/passthrough.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/readable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/transform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/readable-stream/writable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/sqlstring/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/sqlstring/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/sqlstring/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/sqlstring/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/sqlstring/lib/SqlString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/sqlstring/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/string_decoder/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/string_decoder/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/string_decoder/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/string_decoder/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/util-deprecate/History.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/util-deprecate/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/util-deprecate/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/util-deprecate/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/util-deprecate/node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/util-deprecate/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AddProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AddProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/EditProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/EditProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638282917112</updated>
       <workItem from="1638282919474" duration="17266000" />
-      <workItem from="1638403903026" duration="9857000" />
+      <workItem from="1638403903026" duration="16959000" />
     </task>
     <task id="LOCAL-00001" summary="client and server directories">
       <created>1638286295854</created>
@@ -215,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638286469682</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs">
+      <created>1638413950475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638413950475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="client and server directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="client and server directories" />
+    <MESSAGE value="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs" />
   </component>
 </project>

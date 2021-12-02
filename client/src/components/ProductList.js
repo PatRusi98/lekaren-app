@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from "axios";
 import { Link } from "react-router-dom";
-import {Button, Nav, NavDropdown, Navbar, Container} from "react-bootstrap";
+import {Button, Nav, NavDropdown, Navbar, Container, Table} from "react-bootstrap";
 
 const ProductList = () => {
     const [products, setProduct] = useState([]);
@@ -22,7 +22,7 @@ const ProductList = () => {
 
     return (
         <div>
-            <table className="table is-striped is-fullwidth">
+            <Table striped bordered hover>
                 <thead>
                 <tr>
                     <th>id</th>
@@ -37,7 +37,7 @@ const ProductList = () => {
                 <tbody>
                 { products.map((product, index) => (
                     <tr key={ product.id }>
-                        <td>{ index + 1 }</td>
+                        <td>{ product.id }</td>
                         <td>{ product.name }</td>
                         <td>{ product.price }</td>
                         <td>{ product.image }</td>
@@ -50,7 +50,7 @@ const ProductList = () => {
                     </tr>
                 )) }
                 </tbody>
-            </table>
+            </Table>
         </div>
     )
 }

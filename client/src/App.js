@@ -17,17 +17,21 @@ function App() {
             <div className="App">
                 <Navbar bg="success" variant="dark" expand="lg">
                     <Container>
-                        <LinkContainer to="/"><Navbar.Brand>Lekaren Xbanter</Navbar.Brand></LinkContainer>
+                        <LinkContainer to="/"><Navbar.Brand>Lekáreň Xbanter</Navbar.Brand></LinkContainer>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
                                 <LinkContainer to="/"><Nav.Link>Domov</Nav.Link></LinkContainer>
-                                <LinkContainer to="/edit-products"><Nav.Link>Edit Products</Nav.Link></LinkContainer>
+                                <LinkContainer to="/vitaminy-mineraly"><Nav.Link>Vitamíny a minerály</Nav.Link></LinkContainer>
+                                <LinkContainer to="/kozmetika"><Nav.Link>Kozmetika</Nav.Link></LinkContainer>
+                                <LinkContainer to="/sport"><Nav.Link>Šport</Nav.Link></LinkContainer>
+                                <LinkContainer to="/vyzivove-doplnky"><Nav.Link>Výživové doplnky</Nav.Link></LinkContainer>
+                                <LinkContainer to="/optika"><Nav.Link>Optika</Nav.Link></LinkContainer>
+                                <LinkContainer to="/akcie"><Nav.Link>Akcie</Nav.Link></LinkContainer>
                                 <LinkContainer to="/cart"><Nav.Link>Košík</Nav.Link></LinkContainer>
                                 <NavDropdown title="Správa webu" id="basic-nav-dropdown">
                                     <LinkContainer to="/product-list"><NavDropdown.Item>Zoznam produktov</NavDropdown.Item></LinkContainer>
                                     <LinkContainer to="/add-product"><NavDropdown.Item>Pridávanie produktov</NavDropdown.Item></LinkContainer>
-                                    <LinkContainer to="/edit-product"><NavDropdown.Item>Úprava produktov</NavDropdown.Item></LinkContainer>
                                     <NavDropdown.Divider />
                                     <LinkContainer to="/admin"><NavDropdown.Item>Admin centrum</NavDropdown.Item></LinkContainer>
                                 </NavDropdown>
