@@ -9,6 +9,10 @@ import 'bootstrap/dist/js/bootstrap.js';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import {Button, Nav, NavDropdown, Navbar, Container} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";
+import Slideshow from "./Slideshow";
+import AutoplayExample from "./Slideshow";
+import Footer from "./Footer";
+import {Box, Column, FooterLink, Heading, Row} from "./FooterStyles";
 
 
 function App() {
@@ -40,6 +44,7 @@ function App() {
                     </Container>
                 </Navbar>
 
+
                 <Switch>
                     <Route path="/product-list">
                         <ProductList/>
@@ -51,10 +56,11 @@ function App() {
                         <AddProduct/>
                     </Route>
                     <Route path="/">
-
+                        <Slideshow/>
                     </Route>
                 </Switch>
 
+                <Footer/>
             </div>
 
         </Router>

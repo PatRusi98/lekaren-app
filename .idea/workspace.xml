@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="router bootstrap - uprava dizajnu">
+    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="checkpoint 2">
+      <change afterPath="$PROJECT_DIR$/client/src/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/FooterStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Slideshow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/EditProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/EditProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +41,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\PhpstormProjects\lekaren-app\client\src\images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,7 +61,15 @@
       <option name="presentableId" value="Default" />
       <updated>1638282917112</updated>
       <workItem from="1638282919474" duration="17266000" />
-      <workItem from="1638403903026" duration="24057000" />
+      <workItem from="1638403903026" duration="29944000" />
+      <workItem from="1639162493691" duration="1570000" />
+      <workItem from="1640254129543" duration="1202000" />
+      <workItem from="1641428918798" duration="646000" />
+      <workItem from="1641926624447" duration="941000" />
+      <workItem from="1641933684610" duration="2560000" />
+      <workItem from="1642011356508" duration="4915000" />
+      <workItem from="1642091508444" duration="1787000" />
+      <workItem from="1642191395795" duration="2718000" />
     </task>
     <task id="LOCAL-00001" summary="client and server directories">
       <created>1638286295854</created>
@@ -87,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638435835385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="checkpoint 2">
+      <created>1638450807348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638450807348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +135,7 @@
     <MESSAGE value="client and server directories" />
     <MESSAGE value="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs" />
     <MESSAGE value="router bootstrap - uprava dizajnu" />
-    <option name="LAST_COMMIT_MESSAGE" value="router bootstrap - uprava dizajnu" />
+    <MESSAGE value="checkpoint 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkpoint 2" />
   </component>
 </project>
