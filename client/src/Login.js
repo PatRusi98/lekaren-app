@@ -67,4 +67,4 @@ function Login() {
     )
 }
 
-export default ProductList
+export default Login

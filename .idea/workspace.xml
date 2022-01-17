@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="v0.5">
-      <change afterPath="$PROJECT_DIR$/client/src/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="login screen in progress">
       <change beforePath="$PROJECT_DIR$/client/src/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Signup.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <workItem from="1642191395795" duration="4144000" />
       <workItem from="1642270823958" duration="3153000" />
       <workItem from="1642413271627" duration="8035000" />
-      <workItem from="1642424982897" duration="10337000" />
+      <workItem from="1642424982897" duration="10396000" />
     </task>
     <task id="LOCAL-00001" summary="client and server directories">
       <created>1638286295854</created>
@@ -126,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642432457318</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="login screen in progress">
+      <created>1642437648945</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642437648945</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +154,7 @@
     <MESSAGE value="checkpoint 2" />
     <MESSAGE value="footer not working properly" />
     <MESSAGE value="v0.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.5" />
+    <MESSAGE value="login screen in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="login screen in progress" />
   </component>
 </project>
