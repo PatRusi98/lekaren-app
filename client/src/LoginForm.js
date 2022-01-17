@@ -1,32 +1,29 @@
-import { useState } from 'react'
-import axios from "axios";
-import { useHistory } from 'react-router-dom';
+import React, {Component, useState} from "react";
+import Footer from "./Footer";
 import {Button, Form, Row} from "react-bootstrap";
 
-const Signup = () => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const history = useHistory();
+export default function LoginForm() {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
-    const saveProduct = async (e) => {
+    function validate() {
+        return email.length > 0 && password.length > 0;
+    }
+
+    function loginHandler(e) {
         e.preventDefault();
-        await axios.post('http://localhost:3001/users',{
-            email: email,
-            password: password
-        });
-        history.push("/");
     }
 
     return (
         <div align="center">
-            <Form onSubmit={ saveProduct }>
+            <Form onSubmit={ loginHandler }>
                 <Row className="align-items-center">
                     <Form.Group className="mb-3">
                         <Form.Label>Email</Form.Label>
                         <Form.Control
                             className="w-25"
                             type="text"
-                            placeholder="Názov"
+                            placeholder="Email"
                             value={ email }
                             onChange={ (e) => setEmail(e.target.value) }/>
                     </Form.Group>
@@ -40,10 +37,8 @@ const Signup = () => {
                             onChange={ (e) => setPassword(e.target.value) }/>
                     </Form.Group>
                 </Row>
-                <Button as="input" type="submit" value="Registrovat" />
+                <Button as="input" type="submit" value="Prihlasit sa" />
             </Form>
         </div>
-    )
+    );
 }
-
-export default Signup

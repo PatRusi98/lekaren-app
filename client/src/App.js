@@ -8,7 +8,7 @@ import ProductList from "./components/ProductList";
 import AddProduct from "./components/AddProduct";
 import EditProduct from "./components/EditProduct";
 import Navigation from "./Navigation.js";
-import Login from "./Login.js";
+import LoginForm from "./LoginForm.js";
 import Signup from "./Signup";
 import Home from "./Home.js";
 import Footer from "./Footer";
@@ -22,7 +22,9 @@ export default class App extends Component {
     render() {
         return (
             <BrowserRouter>
+
                 <Navigation/>
+
                 <div>
                     <Switch>
                         {/* Routes */}
@@ -43,7 +45,7 @@ export default class App extends Component {
                         </Route>
 
                         <Route path="/login">
-                            <Login/>
+                            <LoginForm/>
                         </Route>
 
                         <Route path="/signup">
@@ -77,7 +79,9 @@ export default class App extends Component {
 
                     </Switch>
                 </div>
+
                 <Footer/>
+
             </BrowserRouter>
         );
     }
