@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="checkpoint 2">
-      <change afterPath="$PROJECT_DIR$/client/src/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/FooterStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Slideshow.js" afterDir="false" />
+    <list default="true" id="83f73526-16ed-47f9-8e01-e32ec87b4390" name="Changes" comment="footer not working properly">
+      <change afterPath="$PROJECT_DIR$/client/src/Account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/EditAccount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/UnderConstruction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/userIndex.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/FooterStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/FooterStyles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/productIndex.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +54,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -69,7 +79,10 @@
       <workItem from="1641933684610" duration="2560000" />
       <workItem from="1642011356508" duration="4915000" />
       <workItem from="1642091508444" duration="1787000" />
-      <workItem from="1642191395795" duration="2718000" />
+      <workItem from="1642191395795" duration="4144000" />
+      <workItem from="1642270823958" duration="3153000" />
+      <workItem from="1642413271627" duration="8035000" />
+      <workItem from="1642424982897" duration="6641000" />
     </task>
     <task id="LOCAL-00001" summary="client and server directories">
       <created>1638286295854</created>
@@ -113,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638450807348</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="footer not working properly">
+      <created>1642196559477</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642196559477</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +156,7 @@
     <MESSAGE value="backend - nodejs, expressjs, sequelize&#10;frontend - reactjs" />
     <MESSAGE value="router bootstrap - uprava dizajnu" />
     <MESSAGE value="checkpoint 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkpoint 2" />
+    <MESSAGE value="footer not working properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer not working properly" />
   </component>
 </project>

@@ -1,5 +1,5 @@
-
 import React from "react";
+import { Link } from "react-router-dom";
 import {
     Box,
     Container,
@@ -15,55 +15,31 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Column>
-                        <Heading>O nas</Heading>
-                        <FooterLink href="#">Aim</FooterLink>
-                        <FooterLink href="#">Vision</FooterLink>
-                        <FooterLink href="#">Testimonials</FooterLink>
+                        <Heading>About Us</Heading>
+                        <FooterLink href="/add-product">Aim</FooterLink>
+                        <FooterLink href="/*">Vision</FooterLink>
+                        <FooterLink href="/*">Testimonials</FooterLink>
                     </Column>
                     <Column>
-                        <Heading>Online nakup</Heading>
-                        <FooterLink href="#">Writing</FooterLink>
-                        <FooterLink href="#">Internships</FooterLink>
-                        <FooterLink href="#">Coding</FooterLink>
-                        <FooterLink href="#">Teaching</FooterLink>
+                        <Heading>Services</Heading>
+                        <FooterLink href="/*">Writing</FooterLink>
+                        <FooterLink href="/*">Internships</FooterLink>
+                        <FooterLink href="/*">Coding</FooterLink>
+                        <FooterLink href="/*">Teaching</FooterLink>
                     </Column>
                     <Column>
-                        <Heading>Zakaznicky servis</Heading>
-                        <FooterLink href="#">Uttar Pradesh</FooterLink>
-                        <FooterLink href="#">Ahemdabad</FooterLink>
-                        <FooterLink href="#">Indore</FooterLink>
-                        <FooterLink href="#">Mumbai</FooterLink>
+                        <Heading>Contact Us</Heading>
+                        <FooterLink href="/*">Uttar Pradesh</FooterLink>
+                        <FooterLink href="/*">Ahemdabad</FooterLink>
+                        <FooterLink href="/*">Indore</FooterLink>
+                        <FooterLink href="/*">Mumbai</FooterLink>
                     </Column>
                     <Column>
-                        <Heading>Kontakt</Heading>
-                        <FooterLink href="#">
-                            <i className="fab fa-facebook-f">
-                <span style={{ marginLeft: "10px" }}>
-                  Facebook
-                </span>
-                            </i>
-                        </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-instagram">
-                <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
-                            </i>
-                        </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-twitter">
-                <span style={{ marginLeft: "10px" }}>
-                  Twitter
-                </span>
-                            </i>
-                        </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-youtube">
-                <span style={{ marginLeft: "10px" }}>
-                  Youtube
-                </span>
-                            </i>
-                        </FooterLink>
+                        <Heading>Contact Us</Heading>
+                        <FooterLink href="/*">Uttar Pradesh</FooterLink>
+                        <FooterLink href="/*">Ahemdabad</FooterLink>
+                        <FooterLink href="/*">Indore</FooterLink>
+                        <FooterLink href="/*">Mumbai</FooterLink>
                     </Column>
                 </Row>
             </Container>

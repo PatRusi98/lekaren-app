@@ -41,7 +41,7 @@ export const updateUser = async (req, res) => {
             }
         });
         res.json({
-            "message": "Product Updated"
+            "message": "User Updated"
         });
     } catch (error) {
         res.json({ message: error.message });

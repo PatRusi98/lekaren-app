@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import axios from "axios";
 import { Link } from "react-router-dom";
 import {Button, Nav, NavDropdown, Navbar, Container, Table} from "react-bootstrap";
-import Footer from "../Footer";
 
 const ProductList = () => {
     const [products, setProduct] = useState([]);

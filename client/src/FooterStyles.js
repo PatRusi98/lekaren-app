@@ -2,13 +2,10 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
   padding: 80px 60px;
-  background: grey;
+  background: black;
   position: absolute;
-  left: 0;
   bottom: 0;
-  right: 0;
   width: 100%;
-  height: 60px;
   
    
   @media (max-width: 1000px) {
@@ -22,7 +19,6 @@ export const Container = styled.div`
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
-    padding-bottom: 60px;
     /* background: red; */
 `
 
@@ -48,7 +44,7 @@ export const Row = styled.div`
 export const FooterLink = styled.a`
   color: #fff;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
    
   &:hover {
@@ -58,7 +54,7 @@ export const FooterLink = styled.a`
 `;
 
 export const Heading = styled.p`
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
